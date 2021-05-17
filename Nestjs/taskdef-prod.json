@@ -1,0 +1,32 @@
+{
+  "containerDefinitions": [
+    {
+      "essential": true,
+      "image": "<IMAGE1_NAME>",
+      "name": "import",
+      "portMappings": [
+        {
+          "hostPort": 4001,
+          "protocol": "tcp",
+          "containerPort": 4001
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/nichiden-backend-prod-import",
+          "awslogs-region": "ap-northeast-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    }
+  ],
+  "cpu": "256",
+  "executionRoleArn": "arn:aws:iam::315601851258:role/ecsTaskExecutionRole",
+  "family": "nichiden-backend-prod-import",
+  "memory": "1024",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": [
+    "FARGATE"
+  ]
+}

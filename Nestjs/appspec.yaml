@@ -1,0 +1,11 @@
+---
+Resources:
+  -
+    TargetService:
+      Properties:
+        LoadBalancerInfo:
+          ContainerName: import
+          ContainerPort: 4001
+        TaskDefinition: <TASK_DEFINITION>
+      Type: "AWS::ECS::Service"
+version: 0.0

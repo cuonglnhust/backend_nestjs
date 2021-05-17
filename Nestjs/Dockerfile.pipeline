@@ -1,0 +1,11 @@
+FROM node:12
+
+ARG ENV_CONFIG_PATH
+ENV ENV_CONFIG_PATH=$ENV_CONFIG_PATH
+
+WORKDIR /app
+COPY ./package.json ./
+COPY . .
+RUN yarn install
+RUN yarn build
+ENTRYPOINT ["/app/start.sh"]

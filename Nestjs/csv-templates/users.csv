@@ -1,0 +1,22 @@
+﻿名,姓,携帯番号,メールアドレス,グループID,役割,ステータス,パスワード,電話認証,メールアドレス認証,役職,会社名,マルチテナント用
+Pham Bao,Trung,098872999,trungpham@gmail.com,,user,1,"$argon2id$v=19$m=4096,t=3,p=1$WLrhmJxtFhp/a276nwrh7g$cA7OoN1PWeukIMdk86qvHlLoo4ej0KcCBhaoUOuQeGU",,,,Công ty TNHH Dịch vụ H&T,1
+HUYEN,VU,086890008961,huyenvt1902@gmail.com,16,user,1,"$argon2id$v=19$m=4096,t=3,p=1$ijWrKdEk2rAT/H2BEBgTJA$8cY3p6GXgFPwJ51Lf5cMcBQQPev8cpb1bGSjOqemO6A",,,User,MK1 Technology Việt Nam,1
+Manh,Lo,054321111,lothimanh@gmail.com,,user,1,"$argon2id$v=19$m=4096,t=3,p=1$FFIoH+YIsQJOBfpNp3a8qA$AXvOqQcT8rDyK1SuuRW/wwJ2kM98q91p9nxHOZ8M1KM",,,債務追討及利潤回報最大化,1111,1
+Le,Anh,0987353726,shopbebe56@gmail.com,,user,1,"$argon2id$v=19$m=4096,t=3,p=1$tHSEsbu6PdMYpYclEJYqMA$O93+YtclQXu8AGU2EZHg21QwIM8b/YviL3gAvZgbajE",,,債務追討及利潤回報最大化,Dong ho TsG,1
+Nang,Hoa,0868900084,hoanang.chupi@gmail.com,7,user,1,"$argon2id$v=19$m=4096,t=3,p=1$bYRhjI+4eANirwU8gRH1Rg$Sa2y1eNV2CkBkZJjtohlwfbvPb1nQlPe5EN+J+e/Rho",,,User,Mk1technology,1
+Nguyen,Thang,,thangnh0409@gmail.com,,user,1,"$argon2id$v=19$m=4096,t=3,p=1$+YgsKq/G5kvBKRhWhu2aKQ$fKSiP/Z4bzDT8J/BrZPrIQI0ITSiqUAAmUFKpwj2kDA",,,,,1
+Manh,Lo,,manh@mk1technology.com,,client_admin,1,"$argon2id$v=19$m=4096,t=3,p=1$pdmJO09BZ6/6n9lpGXrwuw$n53Bd+msRex96V6NTN49xNWR3Ki7sbDm/F0XgWaf45s",,,,,1
+Thanh,Nguyen,,thanhnd.ltt@gmail.com,,client_admin,1,"$argon2id$v=19$m=4096,t=3,p=1$EJZQ1hYT5R48g81kfjv5fA$v707feoxqct2G5zIfQlI9fAR3b3Wrb0lJxRxSfymOiw",,,,,1
+password,test,,test123@mk1technology.com,,user,1,"$argon2id$v=19$m=4096,t=3,p=1$Te3ruG39mHZKMq9v2jl0Sw$tdNLVvgqH0/erBASznAYx/AJddJLX8My09Q60OQhMXE",,,Manager,Abc company,1
+customer,1,,customer1111@mk1technology.com,,user,1,"$argon2id$v=19$m=4096,t=3,p=1$P2gS2ti3QfVubbGVzQXleQ$l8v9FEaZMt53rgu2cwguzJ1379WEyU9iMNSCuafb94E",,,,,1
+vendor,1,,thanh1111@mk1technology.com,,user,1,"$argon2id$v=19$m=4096,t=3,p=1$ZKAiBlHft3iX1YO51iqzbw$t7Ao2aSRV/KAUJE6ipRFsCCkECG8lY1onvCxDWJ04Ms",,,,,1
+浩太郎,高橋,09987662,ktakahashi@mk1technology.com,,admin,1,"$argon2id$v=19$m=4096,t=3,p=1$FvFPnsL1oA4GJAMRuZJhBg$/1qbMliZbF9bKlSOeVljNVs9l5hEHGLqSecdjcnCKRM",,,manager,MK1 Technology,1
+customer,1,+84868900087,customer@mk1technology.com,6,customer,1,"$argon2id$v=19$m=4096,t=3,p=1$eTefP3oQwvtVZAS1YxiixA$+lTV0Hagh8Vw+5s4N6Lyrwzi4eU/gEzXlvMVek4TEXQ",,,Staff,MK1 Technology,1
+Trung,Dang,+84962742352,trung@mk1technology.com,6,staff,1,"$argon2id$v=19$m=4096,t=3,p=1$2p3hmCUaVErJ+vlHtXm/cA$P4Tzg5DBKLAW4fbTs2xbDuW+qXBDysiPHObPQnwlQ0Y",,,,,1
+Hieu,Nguyen,+84989804592,hieu@mk1technology.com,,staff,1,"$argon2id$v=19$m=4096,t=3,p=1$J9nDnztNjEl/zCFqxGdi9Q$7ZegN5u+t2Wj1spBH354/+wO/j8/groVaJs/Q5HyWAY",,,,,1
+staff,Role,+84868900084,staff@mk1technology.com,,user,1,"$argon2id$v=19$m=4096,t=3,p=1$TEFtEoZ/oAdPLG3J+BBrag$e3tEfS2MUjwIiHFmr50ydNLjmIssH5zfJ2UF3VqmwIk",,,,đ,1
+supervisor,1,+84868900085,supervisor@mk1technology.com,,client_admin,1,"$argon2id$v=19$m=4096,t=3,p=1$J9nDnztNjEl/zCFqxGdi9Q$7ZegN5u+t2Wj1spBH354/+wO/j8/groVaJs/Q5HyWAY",,,,,1
+Thang,Nguyen Huu,08234234234234,thang@mk1technology.com,6,client_admin,1,"$argon2id$v=19$m=4096,t=3,p=1$RXpFHyDMNNr6wI+HWKo3rQ$AXx5VYXkk2Qg/GOHM2uMM7gCW/qTnruekR8pUC/eri8",,,Tester,2,1
+Huyen,Vu Thi,+848689000883,huyen@mk1technology.com,21,client_admin,1,"$argon2id$v=19$m=4096,t=3,p=1$kQc6JxnHwjD1gotsc0Yl5A$9l/2MxY7aCd6ZSIGDIQK4fukoiYb942ebFlUAygRpZE",,,Client Admin,MK1 technology Việt Nam,1
+Duc Anh,Le,+84987353726,anh@mk1technology.com,1,admin,1,"$argon2id$v=19$m=4096,t=3,p=1$lZ3LlPqDn/GW+Tj3AshyZQ$0+8bIq9PBw66cTRTUYRcsjcqzTJ9aScomG4VnwMwzkA",,,,,1
+Thanh,Nguyen,+84988741090,thanh@mk1technology.com,21,admin,1,"$argon2id$v=19$m=4096,t=3,p=1$bDj2mMuwULt5VBghuxM9Kw$j0H1SryDNkjw8Leq5xEEt0zVhU7DUR353E06IEQUWOg",,,Super Admin,MK1 technology Việt Nam,1

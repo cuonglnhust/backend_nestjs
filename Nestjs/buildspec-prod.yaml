@@ -1,0 +1,20 @@
+---
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      docker: 18
+  build:
+    commands:
+      - env
+      - ls -la
+      - aws --version
+      - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
+      - REPOSITORY_URI=315601851258.dkr.ecr.ap-northeast-1.amazonaws.com/nichiden-backend-import-prod
+      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+      - TIMESTAMP=$(date -u +'%Y%m%d%H%M%SZ')
+      - IMAGE_TAG=$TIMESTAMP-${COMMIT_HASH:=latest}-prod
+      - cd import
+      - docker build --build-arg ENV_CONFIG_PATH=env.prod -f Dockerfile.pipeline -t $REPOSITORY_URI:latest .
+      - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
+      - bash -x ../deploy_to_production.sh "$(readlink -f ./taskdef-prod.json)" "$REPOSITORY_URI" "$IMAGE_TAG" todo-ecs-service-name
