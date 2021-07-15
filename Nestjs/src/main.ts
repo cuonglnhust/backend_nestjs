@@ -28,7 +28,7 @@ async function bootstrap() {
     origin,
     credentials: true,
   });
-  const port = configService.get('api.port', 4001);
+  const port = configService.get('api.port', process.env.API_PORT);
   const config = new DocumentBuilder()
     .setTitle('Cats example')
     .setDescription('The cats API description')
@@ -39,7 +39,7 @@ async function bootstrap() {
   const document = SwaggerModule.createDocument(app, config);
   //app.setGlobalPrefix('api')
   app.useGlobalPipes(new ValidationPipe());
-  SwaggerModule.setup('document/api', app, document);
+  SwaggerModule.setup('api', app, document);
   await app.listen(port, '0.0.0.0');
 }
 bootstrap();
